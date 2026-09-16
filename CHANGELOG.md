@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/alimertcetin/xiv.filo.xiv.unityintegration/compare/v1.0.0...v1.0.1) (2026-09-16)
+
+
+### Bug Fixes
+
+* **documentation.yml:** Remove "docfx init -q" ([1134c3e](https://github.com/alimertcetin/xiv.filo.xiv.unityintegration/commit/1134c3e2b876dfe0edd9a3b237929610cffc5dd3))
+
 # 1.0.0 (2026-09-16)
 
 
