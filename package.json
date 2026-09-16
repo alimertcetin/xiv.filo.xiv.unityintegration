@@ -1,23 +1,33 @@
 {
-  "name": "xiv.filo.unitypackagetemplate",
+  "name": "xiv.filo.xiv.unityintegration",
   "version": "0.0.0",
-  "displayName": "Package Display Name",
+  "displayName": "XIV.Core Unity Integration",
   "description": "Package Description.",
   "unity": "",
   "unityRelease": "",
   "documentationUrl": "",
   "changelogUrl": "",
   "licensesUrl": "",
-  "dependencies": { },
   "keywords": [
     "XIV",
-    "Unity"
+    "Unity",
+    "Integration"
   ],
   "publishConfig": {
     "access": "public"
   },
-  "author": {
-    "name": "Ali Mert Çetin",
-    "url": "https://alimertcetin.github.io/"
-  }
+  "author": "Ali Mert Çetin (https://alimertcetin.github.io/)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alimertcetin/xiv.filo.xiv.unityintegration.git"
+  },
+  "license": "SEE LICENSE IN LICENSE.md",
+  "bugs": {
+    "url": "https://github.com/alimertcetin/xiv.filo.xiv.unityintegration/issues"
+  },
+  "homepage": "https://github.com/alimertcetin/xiv.filo.xiv.unityintegration#readme"
 }
