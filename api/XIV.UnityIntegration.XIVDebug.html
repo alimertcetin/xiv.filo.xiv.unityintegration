@@ -1,0 +1,1519 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class XIVDebug </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class XIVDebug ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/alimertcetin/xiv.filo.xiv.unityintegration/new/main/apiSpec/new?filename=XIV_UnityIntegration_XIVDebug.md&amp;value=---%0Auid%3A%20XIV.UnityIntegration.XIVDebug%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="XIV.UnityIntegration.XIVDebug">
+
+
+
+  <h1 id="XIV_UnityIntegration_XIVDebug" data-uid="XIV.UnityIntegration.XIVDebug" class="text-break">
+Class XIVDebug  <a class="header-action link-secondary" title="View source" href="https://github.com/alimertcetin/xiv.filo.xiv.unityintegration/blob/main/Runtime/XIVDebug.cs/#L13"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="XIV.html">XIV</a>.<a class="xref" href="XIV.UnityIntegration.html">UnityIntegration</a></dd></dl>
+  
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class XIVDebug</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">XIVDebug</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="XIV_UnityIntegration_XIVDebug_DrawBezier_" data-uid="XIV.UnityIntegration.XIVDebug.DrawBezier*"></a>
+
+  <h3 id="XIV_UnityIntegration_XIVDebug_DrawBezier_Vec3_Vec3_Vec3_Vec3_System_Single_" data-uid="XIV.UnityIntegration.XIVDebug.DrawBezier(Vec3,Vec3,Vec3,Vec3,System.Single)">
+  DrawBezier(Vec3, Vec3, Vec3, Vec3, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/alimertcetin/xiv.filo.xiv.unityintegration/blob/main/Runtime/XIVDebug.cs/#L44"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void DrawBezier(Vec3 p0, Vec3 p1, Vec3 p2, Vec3 p3, float duration = 0)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>p0</code> <span class="xref">Vec3</span></dt>
+    <dd></dd>
+    <dt><code>p1</code> <span class="xref">Vec3</span></dt>
+    <dd></dd>
+    <dt><code>p2</code> <span class="xref">Vec3</span></dt>
+    <dd></dd>
+    <dt><code>p3</code> <span class="xref">Vec3</span></dt>
+    <dd></dd>
+    <dt><code>duration</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="XIV_UnityIntegration_XIVDebug_DrawBezier_" data-uid="XIV.UnityIntegration.XIVDebug.DrawBezier*"></a>
+
+  <h3 id="XIV_UnityIntegration_XIVDebug_DrawBezier_Vec3_Vec3_Vec3_Vec3_XIVColor_System_Int32_System_Single_" data-uid="XIV.UnityIntegration.XIVDebug.DrawBezier(Vec3,Vec3,Vec3,Vec3,XIVColor,System.Int32,System.Single)">
+  DrawBezier(Vec3, Vec3, Vec3, Vec3, XIVColor, int, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/alimertcetin/xiv.filo.xiv.unityintegration/blob/main/Runtime/XIVDebug.cs/#L34"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void DrawBezier(Vec3 p0, Vec3 p1, Vec3 p2, Vec3 p3, XIVColor xivColor, int detail, float duration = 0)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>p0</code> <span class="xref">Vec3</span></dt>
+    <dd></dd>
+    <dt><code>p1</code> <span class="xref">Vec3</span></dt>
+    <dd></dd>
+    <dt><code>p2</code> <span class="xref">Vec3</span></dt>
+    <dd></dd>
+    <dt><code>p3</code> <span class="xref">Vec3</span></dt>
+    <dd></dd>
+    <dt><code>xivColor</code> <span class="xref">XIVColor</span></dt>
+    <dd></dd>
+    <dt><code>detail</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>duration</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="XIV_UnityIntegration_XIVDebug_DrawBezier_" data-uid="XIV.UnityIntegration.XIVDebug.DrawBezier*"></a>
+
+  <h3 id="XIV_UnityIntegration_XIVDebug_DrawBezier_Vec3_Vec3_Vec3_Vec3_XIVColor_System_Single_" data-uid="XIV.UnityIntegration.XIVDebug.DrawBezier(Vec3,Vec3,Vec3,Vec3,XIVColor,System.Single)">
+  DrawBezier(Vec3, Vec3, Vec3, Vec3, XIVColor, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/alimertcetin/xiv.filo.xiv.unityintegration/blob/main/Runtime/XIVDebug.cs/#L39"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void DrawBezier(Vec3 p0, Vec3 p1, Vec3 p2, Vec3 p3, XIVColor xivColor, float duration = 0)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>p0</code> <span class="xref">Vec3</span></dt>
+    <dd></dd>
+    <dt><code>p1</code> <span class="xref">Vec3</span></dt>
+    <dd></dd>
+    <dt><code>p2</code> <span class="xref">Vec3</span></dt>
+    <dd></dd>
+    <dt><code>p3</code> <span class="xref">Vec3</span></dt>
+    <dd></dd>
+    <dt><code>xivColor</code> <span class="xref">XIVColor</span></dt>
+    <dd></dd>
+    <dt><code>duration</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="XIV_UnityIntegration_XIVDebug_DrawBezier_" data-uid="XIV.UnityIntegration.XIVDebug.DrawBezier*"></a>
+
+  <h3 id="XIV_UnityIntegration_XIVDebug_DrawBezier_Vec3___System_Single_" data-uid="XIV.UnityIntegration.XIVDebug.DrawBezier(Vec3[],System.Single)">
+  DrawBezier(Vec3[], float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/alimertcetin/xiv.filo.xiv.unityintegration/blob/main/Runtime/XIVDebug.cs/#L74"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void DrawBezier(Vec3[] curve, float duration = 0)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>curve</code> <span class="xref">Vec3</span>[]</dt>
+    <dd></dd>
+    <dt><code>duration</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="XIV_UnityIntegration_XIVDebug_DrawBezier_" data-uid="XIV.UnityIntegration.XIVDebug.DrawBezier*"></a>
+
+  <h3 id="XIV_UnityIntegration_XIVDebug_DrawBezier_Vec3___System_Single_System_Single_" data-uid="XIV.UnityIntegration.XIVDebug.DrawBezier(Vec3[],System.Single,System.Single)">
+  DrawBezier(Vec3[], float, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/alimertcetin/xiv.filo.xiv.unityintegration/blob/main/Runtime/XIVDebug.cs/#L84"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void DrawBezier(Vec3[] curve, float t, float duration)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>curve</code> <span class="xref">Vec3</span>[]</dt>
+    <dd></dd>
+    <dt><code>t</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>duration</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="XIV_UnityIntegration_XIVDebug_DrawBezier_" data-uid="XIV.UnityIntegration.XIVDebug.DrawBezier*"></a>
+
+  <h3 id="XIV_UnityIntegration_XIVDebug_DrawBezier_Vec3___XIVColor_System_Int32_System_Single_" data-uid="XIV.UnityIntegration.XIVDebug.DrawBezier(Vec3[],XIVColor,System.Int32,System.Single)">
+  DrawBezier(Vec3[], XIVColor, int, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/alimertcetin/xiv.filo.xiv.unityintegration/blob/main/Runtime/XIVDebug.cs/#L54"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void DrawBezier(Vec3[] curve, XIVColor xivColor, int detail, float duration = 0)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>curve</code> <span class="xref">Vec3</span>[]</dt>
+    <dd></dd>
+    <dt><code>xivColor</code> <span class="xref">XIVColor</span></dt>
+    <dd></dd>
+    <dt><code>detail</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>duration</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="XIV_UnityIntegration_XIVDebug_DrawBezier_" data-uid="XIV.UnityIntegration.XIVDebug.DrawBezier*"></a>
+
+  <h3 id="XIV_UnityIntegration_XIVDebug_DrawBezier_Vec3___XIVColor_System_Single_" data-uid="XIV.UnityIntegration.XIVDebug.DrawBezier(Vec3[],XIVColor,System.Single)">
+  DrawBezier(Vec3[], XIVColor, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/alimertcetin/xiv.filo.xiv.unityintegration/blob/main/Runtime/XIVDebug.cs/#L59"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void DrawBezier(Vec3[] curve, XIVColor xivColor, float duration = 0)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>curve</code> <span class="xref">Vec3</span>[]</dt>
+    <dd></dd>
+    <dt><code>xivColor</code> <span class="xref">XIVColor</span></dt>
+    <dd></dd>
+    <dt><code>duration</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="XIV_UnityIntegration_XIVDebug_DrawBezier_" data-uid="XIV.UnityIntegration.XIVDebug.DrawBezier*"></a>
+
+  <h3 id="XIV_UnityIntegration_XIVDebug_DrawBezier_XIVMemory_Vec3__System_Single_" data-uid="XIV.UnityIntegration.XIVDebug.DrawBezier(XIVMemory{Vec3},System.Single)">
+  DrawBezier(XIVMemory&lt;Vec3&gt;, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/alimertcetin/xiv.filo.xiv.unityintegration/blob/main/Runtime/XIVDebug.cs/#L79"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void DrawBezier(XIVMemory&lt;Vec3&gt; curve, float duration = 0)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>curve</code> <span class="xref">XIVMemory</span>&lt;<span class="xref">Vec3</span>&gt;</dt>
+    <dd></dd>
+    <dt><code>duration</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="XIV_UnityIntegration_XIVDebug_DrawBezier_" data-uid="XIV.UnityIntegration.XIVDebug.DrawBezier*"></a>
+
+  <h3 id="XIV_UnityIntegration_XIVDebug_DrawBezier_XIVMemory_Vec3__System_Single_System_Single_" data-uid="XIV.UnityIntegration.XIVDebug.DrawBezier(XIVMemory{Vec3},System.Single,System.Single)">
+  DrawBezier(XIVMemory&lt;Vec3&gt;, float, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/alimertcetin/xiv.filo.xiv.unityintegration/blob/main/Runtime/XIVDebug.cs/#L91"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void DrawBezier(XIVMemory&lt;Vec3&gt; curve, float t, float duration)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>curve</code> <span class="xref">XIVMemory</span>&lt;<span class="xref">Vec3</span>&gt;</dt>
+    <dd></dd>
+    <dt><code>t</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>duration</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="XIV_UnityIntegration_XIVDebug_DrawBezier_" data-uid="XIV.UnityIntegration.XIVDebug.DrawBezier*"></a>
+
+  <h3 id="XIV_UnityIntegration_XIVDebug_DrawBezier_XIVMemory_Vec3__XIVColor_System_Int32_System_Single_" data-uid="XIV.UnityIntegration.XIVDebug.DrawBezier(XIVMemory{Vec3},XIVColor,System.Int32,System.Single)">
+  DrawBezier(XIVMemory&lt;Vec3&gt;, XIVColor, int, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/alimertcetin/xiv.filo.xiv.unityintegration/blob/main/Runtime/XIVDebug.cs/#L64"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void DrawBezier(XIVMemory&lt;Vec3&gt; curve, XIVColor xivColor, int detail, float duration = 0)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>curve</code> <span class="xref">XIVMemory</span>&lt;<span class="xref">Vec3</span>&gt;</dt>
+    <dd></dd>
+    <dt><code>xivColor</code> <span class="xref">XIVColor</span></dt>
+    <dd></dd>
+    <dt><code>detail</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>duration</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="XIV_UnityIntegration_XIVDebug_DrawBezier_" data-uid="XIV.UnityIntegration.XIVDebug.DrawBezier*"></a>
+
+  <h3 id="XIV_UnityIntegration_XIVDebug_DrawBezier_XIVMemory_Vec3__XIVColor_System_Single_" data-uid="XIV.UnityIntegration.XIVDebug.DrawBezier(XIVMemory{Vec3},XIVColor,System.Single)">
+  DrawBezier(XIVMemory&lt;Vec3&gt;, XIVColor, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/alimertcetin/xiv.filo.xiv.unityintegration/blob/main/Runtime/XIVDebug.cs/#L69"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void DrawBezier(XIVMemory&lt;Vec3&gt; curve, XIVColor xivColor, float duration = 0)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>curve</code> <span class="xref">XIVMemory</span>&lt;<span class="xref">Vec3</span>&gt;</dt>
+    <dd></dd>
+    <dt><code>xivColor</code> <span class="xref">XIVColor</span></dt>
+    <dd></dd>
+    <dt><code>duration</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="XIV_UnityIntegration_XIVDebug_DrawBezierDetailed_" data-uid="XIV.UnityIntegration.XIVDebug.DrawBezierDetailed*"></a>
+
+  <h3 id="XIV_UnityIntegration_XIVDebug_DrawBezierDetailed_XIVMemory_Vec3__System_Int32_System_Single_" data-uid="XIV.UnityIntegration.XIVDebug.DrawBezierDetailed(XIVMemory{Vec3},System.Int32,System.Single)">
+  DrawBezierDetailed(XIVMemory&lt;Vec3&gt;, int, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/alimertcetin/xiv.filo.xiv.unityintegration/blob/main/Runtime/XIVDebug.cs/#L98"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void DrawBezierDetailed(XIVMemory&lt;Vec3&gt; curve, int detail = 100, float duration = 0)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>curve</code> <span class="xref">XIVMemory</span>&lt;<span class="xref">Vec3</span>&gt;</dt>
+    <dd></dd>
+    <dt><code>detail</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>duration</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="XIV_UnityIntegration_XIVDebug_DrawBezierWithT_" data-uid="XIV.UnityIntegration.XIVDebug.DrawBezierWithT*"></a>
+
+  <h3 id="XIV_UnityIntegration_XIVDebug_DrawBezierWithT_Vec3_Vec3_Vec3_Vec3_System_Single_System_Single_" data-uid="XIV.UnityIntegration.XIVDebug.DrawBezierWithT(Vec3,Vec3,Vec3,Vec3,System.Single,System.Single)">
+  DrawBezierWithT(Vec3, Vec3, Vec3, Vec3, float, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/alimertcetin/xiv.filo.xiv.unityintegration/blob/main/Runtime/XIVDebug.cs/#L49"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void DrawBezierWithT(Vec3 p0, Vec3 p1, Vec3 p2, Vec3 p3, float t, float duration)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>p0</code> <span class="xref">Vec3</span></dt>
+    <dd></dd>
+    <dt><code>p1</code> <span class="xref">Vec3</span></dt>
+    <dd></dd>
+    <dt><code>p2</code> <span class="xref">Vec3</span></dt>
+    <dd></dd>
+    <dt><code>p3</code> <span class="xref">Vec3</span></dt>
+    <dd></dd>
+    <dt><code>t</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>duration</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="XIV_UnityIntegration_XIVDebug_DrawBounds_" data-uid="XIV.UnityIntegration.XIVDebug.DrawBounds*"></a>
+
+  <h3 id="XIV_UnityIntegration_XIVDebug_DrawBounds_Bounds_System_Single_" data-uid="XIV.UnityIntegration.XIVDebug.DrawBounds(Bounds,System.Single)">
+  DrawBounds(Bounds, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/alimertcetin/xiv.filo.xiv.unityintegration/blob/main/Runtime/XIVDebug.cs/#L207"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void DrawBounds(Bounds bounds, float duration = 0)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>bounds</code> <span class="xref">Bounds</span></dt>
+    <dd></dd>
+    <dt><code>duration</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="XIV_UnityIntegration_XIVDebug_DrawCircle_" data-uid="XIV.UnityIntegration.XIVDebug.DrawCircle*"></a>
+
+  <h3 id="XIV_UnityIntegration_XIVDebug_DrawCircle_Vec3_System_Single_System_Single_" data-uid="XIV.UnityIntegration.XIVDebug.DrawCircle(Vec3,System.Single,System.Single)">
+  DrawCircle(Vec3, float, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/alimertcetin/xiv.filo.xiv.unityintegration/blob/main/Runtime/XIVDebug.cs/#L178"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void DrawCircle(Vec3 position, float radius, float duration = 0)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>position</code> <span class="xref">Vec3</span></dt>
+    <dd></dd>
+    <dt><code>radius</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>duration</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="XIV_UnityIntegration_XIVDebug_DrawCircle_" data-uid="XIV.UnityIntegration.XIVDebug.DrawCircle*"></a>
+
+  <h3 id="XIV_UnityIntegration_XIVDebug_DrawCircle_Vec3_System_Single_Vec3_System_Single_" data-uid="XIV.UnityIntegration.XIVDebug.DrawCircle(Vec3,System.Single,Vec3,System.Single)">
+  DrawCircle(Vec3, float, Vec3, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/alimertcetin/xiv.filo.xiv.unityintegration/blob/main/Runtime/XIVDebug.cs/#L185"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void DrawCircle(Vec3 position, float radius, Vec3 axis, float duration = 0)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>position</code> <span class="xref">Vec3</span></dt>
+    <dd></dd>
+    <dt><code>radius</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>axis</code> <span class="xref">Vec3</span></dt>
+    <dd></dd>
+    <dt><code>duration</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="XIV_UnityIntegration_XIVDebug_DrawCircle_" data-uid="XIV.UnityIntegration.XIVDebug.DrawCircle*"></a>
+
+  <h3 id="XIV_UnityIntegration_XIVDebug_DrawCircle_Vec3_System_Single_Vec3_XIVColor_System_Int32_System_Single_" data-uid="XIV.UnityIntegration.XIVDebug.DrawCircle(Vec3,System.Single,Vec3,XIVColor,System.Int32,System.Single)">
+  DrawCircle(Vec3, float, Vec3, XIVColor, int, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/alimertcetin/xiv.filo.xiv.unityintegration/blob/main/Runtime/XIVDebug.cs/#L160"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void DrawCircle(Vec3 position, float radius, Vec3 axis, XIVColor XIVColor, int detail, float duration = 0)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>position</code> <span class="xref">Vec3</span></dt>
+    <dd></dd>
+    <dt><code>radius</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>axis</code> <span class="xref">Vec3</span></dt>
+    <dd></dd>
+    <dt><code>XIVColor</code> <span class="xref">XIVColor</span></dt>
+    <dd></dd>
+    <dt><code>detail</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>duration</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="XIV_UnityIntegration_XIVDebug_DrawCircle_" data-uid="XIV.UnityIntegration.XIVDebug.DrawCircle*"></a>
+
+  <h3 id="XIV_UnityIntegration_XIVDebug_DrawCircle_Vec3_System_Single_Vec3_XIVColor_System_Single_" data-uid="XIV.UnityIntegration.XIVDebug.DrawCircle(Vec3,System.Single,Vec3,XIVColor,System.Single)">
+  DrawCircle(Vec3, float, Vec3, XIVColor, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/alimertcetin/xiv.filo.xiv.unityintegration/blob/main/Runtime/XIVDebug.cs/#L192"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void DrawCircle(Vec3 position, float radius, Vec3 axis, XIVColor XIVColor, float duration = 0)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>position</code> <span class="xref">Vec3</span></dt>
+    <dd></dd>
+    <dt><code>radius</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>axis</code> <span class="xref">Vec3</span></dt>
+    <dd></dd>
+    <dt><code>XIVColor</code> <span class="xref">XIVColor</span></dt>
+    <dd></dd>
+    <dt><code>duration</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="XIV_UnityIntegration_XIVDebug_DrawCircle_" data-uid="XIV.UnityIntegration.XIVDebug.DrawCircle*"></a>
+
+  <h3 id="XIV_UnityIntegration_XIVDebug_DrawCircle_Vec3_System_Single_XIVColor_System_Single_" data-uid="XIV.UnityIntegration.XIVDebug.DrawCircle(Vec3,System.Single,XIVColor,System.Single)">
+  DrawCircle(Vec3, float, XIVColor, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/alimertcetin/xiv.filo.xiv.unityintegration/blob/main/Runtime/XIVDebug.cs/#L199"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void DrawCircle(Vec3 position, float radius, XIVColor XIVColor, float duration = 0)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>position</code> <span class="xref">Vec3</span></dt>
+    <dd></dd>
+    <dt><code>radius</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>XIVColor</code> <span class="xref">XIVColor</span></dt>
+    <dd></dd>
+    <dt><code>duration</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="XIV_UnityIntegration_XIVDebug_DrawLine_" data-uid="XIV.UnityIntegration.XIVDebug.DrawLine*"></a>
+
+  <h3 id="XIV_UnityIntegration_XIVDebug_DrawLine_Vec3_Vec3_System_Single_" data-uid="XIV.UnityIntegration.XIVDebug.DrawLine(Vec3,Vec3,System.Single)">
+  DrawLine(Vec3, Vec3, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/alimertcetin/xiv.filo.xiv.unityintegration/blob/main/Runtime/XIVDebug.cs/#L18"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void DrawLine(Vec3 from, Vec3 to, float duration = 0)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>from</code> <span class="xref">Vec3</span></dt>
+    <dd></dd>
+    <dt><code>to</code> <span class="xref">Vec3</span></dt>
+    <dd></dd>
+    <dt><code>duration</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="XIV_UnityIntegration_XIVDebug_DrawLine_" data-uid="XIV.UnityIntegration.XIVDebug.DrawLine*"></a>
+
+  <h3 id="XIV_UnityIntegration_XIVDebug_DrawLine_Vec3_Vec3_XIVColor_System_Boolean_System_Single_" data-uid="XIV.UnityIntegration.XIVDebug.DrawLine(Vec3,Vec3,XIVColor,System.Boolean,System.Single)">
+  DrawLine(Vec3, Vec3, XIVColor, bool, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/alimertcetin/xiv.filo.xiv.unityintegration/blob/main/Runtime/XIVDebug.cs/#L28"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void DrawLine(Vec3 from, Vec3 to, XIVColor xivColor, bool depthTest, float duration = 0)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>from</code> <span class="xref">Vec3</span></dt>
+    <dd></dd>
+    <dt><code>to</code> <span class="xref">Vec3</span></dt>
+    <dd></dd>
+    <dt><code>xivColor</code> <span class="xref">XIVColor</span></dt>
+    <dd></dd>
+    <dt><code>depthTest</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>duration</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="XIV_UnityIntegration_XIVDebug_DrawLine_" data-uid="XIV.UnityIntegration.XIVDebug.DrawLine*"></a>
+
+  <h3 id="XIV_UnityIntegration_XIVDebug_DrawLine_Vec3_Vec3_XIVColor_System_Single_" data-uid="XIV.UnityIntegration.XIVDebug.DrawLine(Vec3,Vec3,XIVColor,System.Single)">
+  DrawLine(Vec3, Vec3, XIVColor, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/alimertcetin/xiv.filo.xiv.unityintegration/blob/main/Runtime/XIVDebug.cs/#L23"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void DrawLine(Vec3 from, Vec3 to, XIVColor xivColor, float duration = 0)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>from</code> <span class="xref">Vec3</span></dt>
+    <dd></dd>
+    <dt><code>to</code> <span class="xref">Vec3</span></dt>
+    <dd></dd>
+    <dt><code>xivColor</code> <span class="xref">XIVColor</span></dt>
+    <dd></dd>
+    <dt><code>duration</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="XIV_UnityIntegration_XIVDebug_DrawRectangle_" data-uid="XIV.UnityIntegration.XIVDebug.DrawRectangle*"></a>
+
+  <h3 id="XIV_UnityIntegration_XIVDebug_DrawRectangle_Vec3_Vec3_System_Single_" data-uid="XIV.UnityIntegration.XIVDebug.DrawRectangle(Vec3,Vec3,System.Single)">
+  DrawRectangle(Vec3, Vec3, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/alimertcetin/xiv.filo.xiv.unityintegration/blob/main/Runtime/XIVDebug.cs/#L266"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void DrawRectangle(Vec3 center, Vec3 halfExtends, float duration = 0)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>center</code> <span class="xref">Vec3</span></dt>
+    <dd></dd>
+    <dt><code>halfExtends</code> <span class="xref">Vec3</span></dt>
+    <dd></dd>
+    <dt><code>duration</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="XIV_UnityIntegration_XIVDebug_DrawRectangle_" data-uid="XIV.UnityIntegration.XIVDebug.DrawRectangle*"></a>
+
+  <h3 id="XIV_UnityIntegration_XIVDebug_DrawRectangle_Vector3_Vector3_Quaternion_System_Single_" data-uid="XIV.UnityIntegration.XIVDebug.DrawRectangle(Vector3,Vector3,Quaternion,System.Single)">
+  DrawRectangle(Vector3, Vector3, Quaternion, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/alimertcetin/xiv.filo.xiv.unityintegration/blob/main/Runtime/XIVDebug.cs/#L241"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void DrawRectangle(Vector3 center, Vector3 halfExtents, Quaternion orientation, float duration = 0)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>center</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>halfExtents</code> <span class="xref">Vector3</span></dt>
+    <dd></dd>
+    <dt><code>orientation</code> <span class="xref">Quaternion</span></dt>
+    <dd></dd>
+    <dt><code>duration</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="XIV_UnityIntegration_XIVDebug_DrawSphere_" data-uid="XIV.UnityIntegration.XIVDebug.DrawSphere*"></a>
+
+  <h3 id="XIV_UnityIntegration_XIVDebug_DrawSphere_Vec3_System_Single_System_Single_" data-uid="XIV.UnityIntegration.XIVDebug.DrawSphere(Vec3,System.Single,System.Single)">
+  DrawSphere(Vec3, float, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/alimertcetin/xiv.filo.xiv.unityintegration/blob/main/Runtime/XIVDebug.cs/#L145"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void DrawSphere(Vec3 position, float radius, float duration = 0)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>position</code> <span class="xref">Vec3</span></dt>
+    <dd></dd>
+    <dt><code>radius</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>duration</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="XIV_UnityIntegration_XIVDebug_DrawSphere_" data-uid="XIV.UnityIntegration.XIVDebug.DrawSphere*"></a>
+
+  <h3 id="XIV_UnityIntegration_XIVDebug_DrawSphere_Vec3_System_Single_XIVColor_System_Single_" data-uid="XIV.UnityIntegration.XIVDebug.DrawSphere(Vec3,System.Single,XIVColor,System.Single)">
+  DrawSphere(Vec3, float, XIVColor, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/alimertcetin/xiv.filo.xiv.unityintegration/blob/main/Runtime/XIVDebug.cs/#L152"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void DrawSphere(Vec3 position, float radius, XIVColor xivColor, float duration = 0)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>position</code> <span class="xref">Vec3</span></dt>
+    <dd></dd>
+    <dt><code>radius</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>xivColor</code> <span class="xref">XIVColor</span></dt>
+    <dd></dd>
+    <dt><code>duration</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="XIV_UnityIntegration_XIVDebug_DrawSphere_" data-uid="XIV.UnityIntegration.XIVDebug.DrawSphere*"></a>
+
+  <h3 id="XIV_UnityIntegration_XIVDebug_DrawSphere_Vec3__System_Single__XIVColor__System_Int32__System_Int32__System_Single__" data-uid="XIV.UnityIntegration.XIVDebug.DrawSphere(Vec3@,System.Single@,XIVColor@,System.Int32@,System.Int32@,System.Single@)">
+  DrawSphere(in Vec3, in float, in XIVColor, in int, in int, in float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/alimertcetin/xiv.filo.xiv.unityintegration/blob/main/Runtime/XIVDebug.cs/#L129"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void DrawSphere(in Vec3 position, in float radius, in XIVColor xivColor, in int detail, in int circleDetail, in float duration = 0)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>position</code> <span class="xref">Vec3</span></dt>
+    <dd></dd>
+    <dt><code>radius</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>xivColor</code> <span class="xref">XIVColor</span></dt>
+    <dd></dd>
+    <dt><code>detail</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>circleDetail</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>duration</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="XIV_UnityIntegration_XIVDebug_DrawSpline_" data-uid="XIV.UnityIntegration.XIVDebug.DrawSpline*"></a>
+
+  <h3 id="XIV_UnityIntegration_XIVDebug_DrawSpline_System_Collections_Generic_IList_Vec3__System_Single_XIVColor_System_Int32_System_Single_" data-uid="XIV.UnityIntegration.XIVDebug.DrawSpline(System.Collections.Generic.IList{Vec3},System.Single,XIVColor,System.Int32,System.Single)">
+  DrawSpline(IList&lt;Vec3&gt;, float, XIVColor, int, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/alimertcetin/xiv.filo.xiv.unityintegration/blob/main/Runtime/XIVDebug.cs/#L119"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void DrawSpline(IList&lt;Vec3&gt; points, float t, XIVColor XIVColor, int detail, float duration = 0)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>points</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;<span class="xref">Vec3</span>&gt;</dt>
+    <dd></dd>
+    <dt><code>t</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>XIVColor</code> <span class="xref">XIVColor</span></dt>
+    <dd></dd>
+    <dt><code>detail</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>duration</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="XIV_UnityIntegration_XIVDebug_DrawSpline_" data-uid="XIV.UnityIntegration.XIVDebug.DrawSpline*"></a>
+
+  <h3 id="XIV_UnityIntegration_XIVDebug_DrawSpline_System_Collections_Generic_IList_Vec3__XIVColor_System_Int32_System_Single_" data-uid="XIV.UnityIntegration.XIVDebug.DrawSpline(System.Collections.Generic.IList{Vec3},XIVColor,System.Int32,System.Single)">
+  DrawSpline(IList&lt;Vec3&gt;, XIVColor, int, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/alimertcetin/xiv.filo.xiv.unityintegration/blob/main/Runtime/XIVDebug.cs/#L104"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void DrawSpline(IList&lt;Vec3&gt; points, XIVColor xivColor, int detail, float duration = 0)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>points</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;<span class="xref">Vec3</span>&gt;</dt>
+    <dd></dd>
+    <dt><code>xivColor</code> <span class="xref">XIVColor</span></dt>
+    <dd></dd>
+    <dt><code>detail</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>duration</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="XIV_UnityIntegration_XIVDebug_DrawText_" data-uid="XIV.UnityIntegration.XIVDebug.DrawText*"></a>
+
+  <h3 id="XIV_UnityIntegration_XIVDebug_DrawText_Vec3_System_String_System_Int32_System_Single_" data-uid="XIV.UnityIntegration.XIVDebug.DrawText(Vec3,System.String,System.Int32,System.Single)">
+  DrawText(Vec3, string, int, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/alimertcetin/xiv.filo.xiv.unityintegration/blob/main/Runtime/XIVDebug.cs/#L338"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void DrawText(Vec3 position, string text, int size, float duration = 0)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>position</code> <span class="xref">Vec3</span></dt>
+    <dd></dd>
+    <dt><code>text</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>size</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>duration</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="XIV_UnityIntegration_XIVDebug_DrawText_" data-uid="XIV.UnityIntegration.XIVDebug.DrawText*"></a>
+
+  <h3 id="XIV_UnityIntegration_XIVDebug_DrawText_Vec3_System_String_System_Int32_XIVColor_System_Single_" data-uid="XIV.UnityIntegration.XIVDebug.DrawText(Vec3,System.String,System.Int32,XIVColor,System.Single)">
+  DrawText(Vec3, string, int, XIVColor, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/alimertcetin/xiv.filo.xiv.unityintegration/blob/main/Runtime/XIVDebug.cs/#L315"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void DrawText(Vec3 position, string text, int size, XIVColor xivColor, float duration = 0)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>position</code> <span class="xref">Vec3</span></dt>
+    <dd></dd>
+    <dt><code>text</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>size</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>xivColor</code> <span class="xref">XIVColor</span></dt>
+    <dd></dd>
+    <dt><code>duration</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="XIV_UnityIntegration_XIVDebug_DrawText_" data-uid="XIV.UnityIntegration.XIVDebug.DrawText*"></a>
+
+  <h3 id="XIV_UnityIntegration_XIVDebug_DrawText_Vec3_System_String_System_Single_" data-uid="XIV.UnityIntegration.XIVDebug.DrawText(Vec3,System.String,System.Single)">
+  DrawText(Vec3, string, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/alimertcetin/xiv.filo.xiv.unityintegration/blob/main/Runtime/XIVDebug.cs/#L345"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void DrawText(Vec3 position, string text, float duration = 0)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>position</code> <span class="xref">Vec3</span></dt>
+    <dd></dd>
+    <dt><code>text</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>duration</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="XIV_UnityIntegration_XIVDebug_DrawTextOnLine_" data-uid="XIV.UnityIntegration.XIVDebug.DrawTextOnLine*"></a>
+
+  <h3 id="XIV_UnityIntegration_XIVDebug_DrawTextOnLine_Vec3_Vec3_System_String_System_Int32_System_Single_" data-uid="XIV.UnityIntegration.XIVDebug.DrawTextOnLine(Vec3,Vec3,System.String,System.Int32,System.Single)">
+  DrawTextOnLine(Vec3, Vec3, string, int, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/alimertcetin/xiv.filo.xiv.unityintegration/blob/main/Runtime/XIVDebug.cs/#L368"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void DrawTextOnLine(Vec3 from, Vec3 to, string text, int size, float duration = 0)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>from</code> <span class="xref">Vec3</span></dt>
+    <dd></dd>
+    <dt><code>to</code> <span class="xref">Vec3</span></dt>
+    <dd></dd>
+    <dt><code>text</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>size</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>duration</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="XIV_UnityIntegration_XIVDebug_DrawTextOnLine_" data-uid="XIV.UnityIntegration.XIVDebug.DrawTextOnLine*"></a>
+
+  <h3 id="XIV_UnityIntegration_XIVDebug_DrawTextOnLine_Vec3_Vec3_System_String_System_Int32_XIVColor_System_Single_" data-uid="XIV.UnityIntegration.XIVDebug.DrawTextOnLine(Vec3,Vec3,System.String,System.Int32,XIVColor,System.Single)">
+  DrawTextOnLine(Vec3, Vec3, string, int, XIVColor, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/alimertcetin/xiv.filo.xiv.unityintegration/blob/main/Runtime/XIVDebug.cs/#L361"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void DrawTextOnLine(Vec3 from, Vec3 to, string text, int size, XIVColor XIVColor, float duration = 0)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>from</code> <span class="xref">Vec3</span></dt>
+    <dd></dd>
+    <dt><code>to</code> <span class="xref">Vec3</span></dt>
+    <dd></dd>
+    <dt><code>text</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>size</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>XIVColor</code> <span class="xref">XIVColor</span></dt>
+    <dd></dd>
+    <dt><code>duration</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="XIV_UnityIntegration_XIVDebug_DrawTextOnLine_" data-uid="XIV.UnityIntegration.XIVDebug.DrawTextOnLine*"></a>
+
+  <h3 id="XIV_UnityIntegration_XIVDebug_DrawTextOnLine_Vec3_Vec3_System_String_System_Int32_XIVColor_System_Single_System_Single_" data-uid="XIV.UnityIntegration.XIVDebug.DrawTextOnLine(Vec3,Vec3,System.String,System.Int32,XIVColor,System.Single,System.Single)">
+  DrawTextOnLine(Vec3, Vec3, string, int, XIVColor, float, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/alimertcetin/xiv.filo.xiv.unityintegration/blob/main/Runtime/XIVDebug.cs/#L353"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void DrawTextOnLine(Vec3 from, Vec3 to, string text, int size, XIVColor XIVColor, float t, float duration)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>from</code> <span class="xref">Vec3</span></dt>
+    <dd></dd>
+    <dt><code>to</code> <span class="xref">Vec3</span></dt>
+    <dd></dd>
+    <dt><code>text</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>size</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>XIVColor</code> <span class="xref">XIVColor</span></dt>
+    <dd></dd>
+    <dt><code>t</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>duration</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="XIV_UnityIntegration_XIVDebug_DrawTextOnLine_" data-uid="XIV.UnityIntegration.XIVDebug.DrawTextOnLine*"></a>
+
+  <h3 id="XIV_UnityIntegration_XIVDebug_DrawTextOnLine_Vec3_Vec3_System_String_System_Single_" data-uid="XIV.UnityIntegration.XIVDebug.DrawTextOnLine(Vec3,Vec3,System.String,System.Single)">
+  DrawTextOnLine(Vec3, Vec3, string, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/alimertcetin/xiv.filo.xiv.unityintegration/blob/main/Runtime/XIVDebug.cs/#L375"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void DrawTextOnLine(Vec3 from, Vec3 to, string text, float duration = 0)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>from</code> <span class="xref">Vec3</span></dt>
+    <dd></dd>
+    <dt><code>to</code> <span class="xref">Vec3</span></dt>
+    <dd></dd>
+    <dt><code>text</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>duration</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/alimertcetin/xiv.filo.xiv.unityintegration/blob/main/Runtime/XIVDebug.cs/#L13" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

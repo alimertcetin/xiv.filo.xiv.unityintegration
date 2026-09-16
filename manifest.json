@@ -1,7 +1,763 @@
 {
-  "source_base_path": "/home/runner/work/UnityPackageTemplate/UnityPackageTemplate/docfx_project",
+  "source_base_path": "/home/runner/work/xiv.filo.xiv.unityintegration/xiv.filo.xiv.unityintegration/docfx_project",
   "xrefmap": "xrefmap.yml",
   "files": [
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XIV.Core.Tools.ColliderConverter.ColliderConverter.BoxCollider2DParams.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XIV.Core.Tools.ColliderConverter.ColliderConverter.BoxCollider2DParams.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "XIV.Core.Tools.ColliderConverter.ColliderConverter.BoxCollider2DParams",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XIV.Core.Tools.ColliderConverter.ColliderConverter.CapsuleCollider2DParams.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XIV.Core.Tools.ColliderConverter.ColliderConverter.CapsuleCollider2DParams.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "XIV.Core.Tools.ColliderConverter.ColliderConverter.CapsuleCollider2DParams",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XIV.Core.Tools.ColliderConverter.ColliderConverter.CircleColliderParams.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XIV.Core.Tools.ColliderConverter.ColliderConverter.CircleColliderParams.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "XIV.Core.Tools.ColliderConverter.ColliderConverter.CircleColliderParams",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XIV.Core.Tools.ColliderConverter.ColliderConverter.Rigidbody2DParams.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XIV.Core.Tools.ColliderConverter.ColliderConverter.Rigidbody2DParams.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "XIV.Core.Tools.ColliderConverter.ColliderConverter.Rigidbody2DParams",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XIV.Core.Tools.ColliderConverter.ColliderConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XIV.Core.Tools.ColliderConverter.ColliderConverter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "XIV.Core.Tools.ColliderConverter.ColliderConverter",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XIV.Core.Tools.ColliderConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XIV.Core.Tools.ColliderConverter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "XIV.Core.Tools.ColliderConverter",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XIV.Core.TweenSystem.Drivers.TweenDriver-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XIV.Core.TweenSystem.Drivers.TweenDriver-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "XIV.Core.TweenSystem.Drivers.TweenDriver<TValueType>",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XIV.Core.TweenSystem.Drivers.TweenDriver-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XIV.Core.TweenSystem.Drivers.TweenDriver-2.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "XIV.Core.TweenSystem.Drivers.TweenDriver<TValueType, TComponentType>",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XIV.Core.TweenSystem.Drivers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XIV.Core.TweenSystem.Drivers.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "XIV.Core.TweenSystem.Drivers",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XIV.Core.TweenSystem.ITween.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XIV.Core.TweenSystem.ITween.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "XIV.Core.TweenSystem.ITween",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XIV.Core.TweenSystem.OtherTweens.CallbackTween.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XIV.Core.TweenSystem.OtherTweens.CallbackTween.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "XIV.Core.TweenSystem.OtherTweens.CallbackTween",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XIV.Core.TweenSystem.OtherTweens.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XIV.Core.TweenSystem.OtherTweens.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "XIV.Core.TweenSystem.OtherTweens",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XIV.Core.TweenSystem.TweenTimeline.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XIV.Core.TweenSystem.TweenTimeline.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "XIV.Core.TweenSystem.TweenTimeline",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XIV.Core.TweenSystem.XIVTweenBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XIV.Core.TweenSystem.XIVTweenBuilder.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "XIV.Core.TweenSystem.XIVTweenBuilder",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XIV.Core.TweenSystem.XIVTweenExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XIV.Core.TweenSystem.XIVTweenExtensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "XIV.Core.TweenSystem.XIVTweenExtensions",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XIV.Core.TweenSystem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XIV.Core.TweenSystem.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "XIV.Core.TweenSystem",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XIV.Core.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XIV.Core.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": null,
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XIV.UnityIntegration.ButtonAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XIV.UnityIntegration.ButtonAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "XIV.UnityIntegration.ButtonAttribute",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XIV.UnityIntegration.CamFrustumUtils.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XIV.UnityIntegration.CamFrustumUtils.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "XIV.UnityIntegration.CamFrustumUtils",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XIV.UnityIntegration.DisplayWithoutEdit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XIV.UnityIntegration.DisplayWithoutEdit.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "XIV.UnityIntegration.DisplayWithoutEdit",
+      "Summary": "<p sourcefile=\"api/XIV.UnityIntegration.DisplayWithoutEdit.yml\" sourcestartlinenumber=\"1\">Allow to display an attribute in inspector without allow editing</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XIV.UnityIntegration.Extensions.ColorExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XIV.UnityIntegration.Extensions.ColorExtensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "XIV.UnityIntegration.Extensions.ColorExtensions",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XIV.UnityIntegration.Extensions.Vec2Extensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XIV.UnityIntegration.Extensions.Vec2Extensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "XIV.UnityIntegration.Extensions.Vec2Extensions",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XIV.UnityIntegration.Extensions.Vec3Extensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XIV.UnityIntegration.Extensions.Vec3Extensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "XIV.UnityIntegration.Extensions.Vec3Extensions",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XIV.UnityIntegration.Extensions.Vec4Extensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XIV.UnityIntegration.Extensions.Vec4Extensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "XIV.UnityIntegration.Extensions.Vec4Extensions",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XIV.UnityIntegration.Extensions.Vector2Extensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XIV.UnityIntegration.Extensions.Vector2Extensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "XIV.UnityIntegration.Extensions.Vector2Extensions",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XIV.UnityIntegration.Extensions.Vector3Extensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XIV.UnityIntegration.Extensions.Vector3Extensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "XIV.UnityIntegration.Extensions.Vector3Extensions",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XIV.UnityIntegration.Extensions.VectorCollectionExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XIV.UnityIntegration.Extensions.VectorCollectionExtensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "XIV.UnityIntegration.Extensions.VectorCollectionExtensions",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XIV.UnityIntegration.Extensions.XIVColorExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XIV.UnityIntegration.Extensions.XIVColorExtensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "XIV.UnityIntegration.Extensions.XIVColorExtensions",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XIV.UnityIntegration.Extensions.XIVQuaternionExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XIV.UnityIntegration.Extensions.XIVQuaternionExtension.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "XIV.UnityIntegration.Extensions.XIVQuaternionExtension",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XIV.UnityIntegration.Extensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XIV.UnityIntegration.Extensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "XIV.UnityIntegration.Extensions",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XIV.UnityIntegration.IXIVDebugger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XIV.UnityIntegration.IXIVDebugger.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "XIV.UnityIntegration.IXIVDebugger",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XIV.UnityIntegration.OnValueChangedAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XIV.UnityIntegration.OnValueChangedAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "XIV.UnityIntegration.OnValueChangedAttribute",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XIV.UnityIntegration.TextureUtils.Scale.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XIV.UnityIntegration.TextureUtils.Scale.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "XIV.UnityIntegration.TextureUtils.Scale",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XIV.UnityIntegration.TextureUtils.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XIV.UnityIntegration.TextureUtils.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "XIV.UnityIntegration.TextureUtils",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XIV.UnityIntegration.XIVAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XIV.UnityIntegration.XIVAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "XIV.UnityIntegration.XIVAttribute",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XIV.UnityIntegration.XIVDebug.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XIV.UnityIntegration.XIVDebug.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "XIV.UnityIntegration.XIVDebug",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XIV.UnityIntegration.XIVDeepInspectionAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XIV.UnityIntegration.XIVDeepInspectionAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "XIV.UnityIntegration.XIVDeepInspectionAttribute",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XIV.UnityIntegration.XIVEditor.CodeGeneration.AnimationConstantsGenerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XIV.UnityIntegration.XIVEditor.CodeGeneration.AnimationConstantsGenerator.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "XIV.UnityIntegration.XIVEditor.CodeGeneration.AnimationConstantsGenerator",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XIV.UnityIntegration.XIVEditor.CodeGeneration.AudioMixerConstantsGenerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XIV.UnityIntegration.XIVEditor.CodeGeneration.AudioMixerConstantsGenerator.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "XIV.UnityIntegration.XIVEditor.CodeGeneration.AudioMixerConstantsGenerator",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XIV.UnityIntegration.XIVEditor.CodeGeneration.PhysicsConstantsGenerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XIV.UnityIntegration.XIVEditor.CodeGeneration.PhysicsConstantsGenerator.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "XIV.UnityIntegration.XIVEditor.CodeGeneration.PhysicsConstantsGenerator",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XIV.UnityIntegration.XIVEditor.CodeGeneration.ShaderConstantsGenerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XIV.UnityIntegration.XIVEditor.CodeGeneration.ShaderConstantsGenerator.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "XIV.UnityIntegration.XIVEditor.CodeGeneration.ShaderConstantsGenerator",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XIV.UnityIntegration.XIVEditor.CodeGeneration.TagConstantsGenerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XIV.UnityIntegration.XIVEditor.CodeGeneration.TagConstantsGenerator.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "XIV.UnityIntegration.XIVEditor.CodeGeneration.TagConstantsGenerator",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XIV.UnityIntegration.XIVEditor.CodeGeneration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XIV.UnityIntegration.XIVEditor.CodeGeneration.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "XIV.UnityIntegration.XIVEditor.CodeGeneration",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XIV.UnityIntegration.XIVEditor.DisplayWithoutEditDrawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XIV.UnityIntegration.XIVEditor.DisplayWithoutEditDrawer.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "XIV.UnityIntegration.XIVEditor.DisplayWithoutEditDrawer",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XIV.UnityIntegration.XIVEditor.FilePaths.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XIV.UnityIntegration.XIVEditor.FilePaths.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "XIV.UnityIntegration.XIVEditor.FilePaths",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XIV.UnityIntegration.XIVEditor.MenuItems.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XIV.UnityIntegration.XIVEditor.MenuItems.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "XIV.UnityIntegration.XIVEditor.MenuItems",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XIV.UnityIntegration.XIVEditor.Utils.XIVEditorAssetUtils.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XIV.UnityIntegration.XIVEditor.Utils.XIVEditorAssetUtils.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "XIV.UnityIntegration.XIVEditor.Utils.XIVEditorAssetUtils",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XIV.UnityIntegration.XIVEditor.Utils.XIVEditorUnityEditorUtils.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XIV.UnityIntegration.XIVEditor.Utils.XIVEditorUnityEditorUtils.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "XIV.UnityIntegration.XIVEditor.Utils.XIVEditorUnityEditorUtils",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XIV.UnityIntegration.XIVEditor.Utils.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XIV.UnityIntegration.XIVEditor.Utils.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "XIV.UnityIntegration.XIVEditor.Utils",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XIV.UnityIntegration.XIVEditor.XIVDefaultEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XIV.UnityIntegration.XIVEditor.XIVDefaultEditor.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "XIV.UnityIntegration.XIVEditor.XIVDefaultEditor",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XIV.UnityIntegration.XIVEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XIV.UnityIntegration.XIVEditor.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "XIV.UnityIntegration.XIVEditor",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XIV.UnityIntegration.XIVUnityDebugger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XIV.UnityIntegration.XIVUnityDebugger.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "XIV.UnityIntegration.XIVUnityDebugger",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XIV.UnityIntegration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XIV.UnityIntegration.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "XIV.UnityIntegration",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XIV.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XIV.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": null,
+      "Summary": null
+    },
     {
       "type": "Conceptual",
       "source_relative_path": "api/index.md",
