@@ -1,0 +1,16 @@
+{
+    "name": "XIV.UnityIntegration",
+    "rootNamespace": "",
+    "references": [
+        "GUID:432e6b92b0382c848b5b98c9d6c2bd11"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
