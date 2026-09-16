@@ -1,4 +1,4 @@
 # Package Name
-Welcome to the documentation of [package-name]
+Welcome to the documentation of XIV.UnityIntegration
 
-[package-description]
+This package integrates XIV.Core to UnityEngine
